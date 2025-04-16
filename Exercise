@@ -1,6 +1,8 @@
-SELECT 85 AS score, 
-CASE 
-WHEN 85 >= 60 THEN 'Pass' 
-ELSE 'Fail' 
-END AS status;
+WITH target AS (
+  SELECT 'Tiffany' AS name, 16 AS age, 54 AS target_age
+)
+SELECT 
+  name, 
+  target_age - age AS years_remaining
+FROM target;
 
