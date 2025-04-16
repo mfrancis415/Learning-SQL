@@ -2,7 +2,7 @@ WITH target AS (
   SELECT 'Tiffany' AS name, 16 AS age, 54 AS target_age
 )
 SELECT 
-  name, 
-  target_age - age AS years_remaining
+  name || ' will reach ' || target_age || ' in ' || (target_age - age) || ' years.' AS message
 FROM target;
+
 
