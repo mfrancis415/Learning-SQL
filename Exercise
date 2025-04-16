@@ -1,0 +1,1 @@
+SELECT 'Monica' AS name, 19 AS age, 12 AS favorite;
