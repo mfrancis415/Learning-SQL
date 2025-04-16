@@ -1,6 +1,6 @@
 # Learning SQL in 7 Weeks
 
-This repository contains SQL exercises from the [7 Modern Languages in 7 Weeks](#) project, using PostgreSQL.
+This repository contains SQL exercises from the [7 Week](#) challenge., using PostgreSQL.
 
 ## 📚 Week 1: Core Concepts
 
