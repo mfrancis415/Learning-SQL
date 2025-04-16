@@ -1,11 +1,10 @@
-# Learning SQL
-# 🗃️ SQL: 7 Languages in 7 Weeks
+# Learning SQL in 7 Weeks
 
 This repository contains SQL exercises from the [7 Modern Languages in 7 Weeks](#) project, using PostgreSQL.
 
 ## 📚 Week 1: Core Concepts
 
-### ✅ Day 3: Variables and Expressions
+### ✅ Variables and Expressions
 - Simulated variables using aliases and CTEs
 - Performed arithmetic and labeled results using `AS`
 - Used `CASE WHEN` for conditional logic
