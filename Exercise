@@ -1,1 +1,1 @@
-SELECT 'Monica' AS name, 19 AS age, 12 AS favorite;
+SELECT 5.50 AS price, 4 AS quantity, 5.50 * 4 AS total;
