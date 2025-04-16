@@ -1,5 +1,6 @@
-WITH cart AS (
-  SELECT 5.50 AS price, 4 AS quantity
-)
-SELECT price * quantity AS total FROM cart;
+SELECT 85 AS score, 
+CASE 
+WHEN 85 >= 60 THEN 'Pass' 
+ELSE 'Fail' 
+END AS status;
 
