@@ -1,1 +1,5 @@
-SELECT 5.50 AS price, 4 AS quantity, 5.50 * 4 AS total;
+WITH cart AS (
+  SELECT 5.50 AS price, 4 AS quantity
+)
+SELECT price * quantity AS total FROM cart;
+
